@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.application.testapp.services.CakeServiceImplTest$TestSomethingNew
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 0.029 s <<< FAILURE! - in com.application.testapp.services.CakeServiceImplTest$TestSomethingNew
+com.application.testapp.services.CakeServiceImplTest.test_cakeName_filter  Time elapsed: 0.071 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not the same instance ==> expected: com.application.testapp.entity.Cake@37fdfb05<Cake{cakeId=1, cakeName='Spice cake', cakeFlavour='spice'}> but was: com.application.testapp.entity.Cake@5e39850<Cake{cakeId=1, cakeName='Spice cake', cakeFlavour='spice'}>
+	at com.application.testapp.services.CakeServiceImplTest.test_cakeName_filter(CakeServiceImplTest.java:99)
+
+com.application.testapp.services.CakeServiceImplTest$TestSomethingNew.check_flavours_with_parameters(String)[1]  Time elapsed: 0.014 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Only get thrown when there is index out of bound ==> Expected java.lang.IndexOutOfBoundsException to be thrown, but nothing was thrown.
+	at com.application.testapp.services.CakeServiceImplTest$TestSomethingNew.check_flavours_with_parameters(CakeServiceImplTest.java:160)
+

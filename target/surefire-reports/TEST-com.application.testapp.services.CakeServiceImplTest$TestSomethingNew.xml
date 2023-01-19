@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.application.testapp.services.CakeServiceImplTest$TestSomethingNew" time="0.029" tests="11" errors="0" skipped="1" failures="2">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/raj/IntelliJProjects/testapp/target/test-classes:/home/raj/IntelliJProjects/testapp/target/classes:/home/raj/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/raj/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/raj/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:/home/raj/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/home/raj/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/raj/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/raj/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar:/home/raj/.m2/repository/com/h2database/h2/2.1.214/h2-2.1.214.jar:/home/raj/.m2/repository/org/mockito/mockito-junit-jupiter/4.8.0/mockito-junit-jupiter-4.8.0.jar:/home/raj/.m2/repository/org/mockito/mockito-core/4.8.0/mockito-core-4.8.0.jar:/home/raj/.m2/repository/net/bytebuddy/byte-buddy/1.12.14/byte-buddy-1.12.14.jar:/home/raj/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.14/byte-buddy-agent-1.12.14.jar:/home/raj/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/home/raj/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/raj/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-11/lib"/>
+    <property name="sun.java.command" value="/home/raj/IntelliJProjects/testapp/target/surefire/surefirebooter5840801546525792897.jar /home/raj/IntelliJProjects/testapp/target/surefire 2023-01-18T18-13-02_747-jvmRun1 surefire16683296799338858329tmp surefire_05993971607421088703tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/raj/IntelliJProjects/testapp/target/test-classes:/home/raj/IntelliJProjects/testapp/target/classes:/home/raj/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/raj/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/raj/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:/home/raj/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/home/raj/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/raj/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/raj/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar:/home/raj/.m2/repository/com/h2database/h2/2.1.214/h2-2.1.214.jar:/home/raj/.m2/repository/org/mockito/mockito-junit-jupiter/4.8.0/mockito-junit-jupiter-4.8.0.jar:/home/raj/.m2/repository/org/mockito/mockito-core/4.8.0/mockito-core-4.8.0.jar:/home/raj/.m2/repository/net/bytebuddy/byte-buddy/1.12.14/byte-buddy-1.12.14.jar:/home/raj/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.14/byte-buddy-agent-1.12.14.jar:/home/raj/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/home/raj/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/raj/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/raj"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="/usr/lib/jvm/jdk-11"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/raj/IntelliJProjects/testapp"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/raj/IntelliJProjects/testapp/target/surefire/surefirebooter5840801546525792897.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16.1+1-LTS-1"/>
+    <property name="user.name" value="raj"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.15.0-58-generic"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/home/raj/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="idea.version" value="2022.3.1"/>
+    <property name="java.version" value="11.0.16.1"/>
+    <property name="user.dir" value="/home/raj/IntelliJProjects/testapp"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16.1+1-LTS-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="repeat_the_test_with_generalFilter(RepetitionInfo)[1]" classname="com.application.testapp.services.CakeServiceImplTest" time="0.024">
+    <system-out><![CDATA[1
+]]></system-out>
+  </testcase>
+  <testcase name="repeat_the_test_with_generalFilter(RepetitionInfo)[2]" classname="com.application.testapp.services.CakeServiceImplTest" time="0.002">
+    <system-out><![CDATA[2
+]]></system-out>
+  </testcase>
+  <testcase name="repeat_the_test_with_generalFilter(RepetitionInfo)[3]" classname="com.application.testapp.services.CakeServiceImplTest" time="0.002">
+    <system-out><![CDATA[3
+]]></system-out>
+  </testcase>
+  <testcase name="repeat_the_test_with_generalFilter(RepetitionInfo)[4]" classname="com.application.testapp.services.CakeServiceImplTest" time="0.002">
+    <system-out><![CDATA[4
+]]></system-out>
+  </testcase>
+  <testcase name="Test_Cakes_With_ID" classname="com.application.testapp.services.CakeServiceImplTest" time="0.002"/>
+  <testcase name="test_cakeName_filter" classname="com.application.testapp.services.CakeServiceImplTest" time="0.071">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Not the same instance ==> expected: com.application.testapp.entity.Cake@37fdfb05<Cake{cakeId=1, cakeName='Spice cake', cakeFlavour='spice'}> but was: com.application.testapp.entity.Cake@5e39850<Cake{cakeId=1, cakeName='Spice cake', cakeFlavour='spice'}>
+	at com.application.testapp.services.CakeServiceImplTest.test_cakeName_filter(CakeServiceImplTest.java:99)
+]]></failure>
+  </testcase>
+  <testcase name="Test_Cakes_WIth_Assumptions" classname="com.application.testapp.services.CakeServiceImplTest" time="0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at com.application.testapp.services.CakeServiceImplTest.Test_Cakes_WIth_Assumptions(CakeServiceImplTest.java:108)
+]]></skipped>
+  </testcase>
+  <testcase name="test_the_CakeService_FilterWithFlavour_with_Null_Cake" classname="com.application.testapp.services.CakeServiceImplTest" time="0.002"/>
+  <testcase name="testCakeServiceFilterWithFlavour" classname="com.application.testapp.services.CakeServiceImplTest" time="0.001"/>
+  <testcase name="check_flavours_with_parameters(String)[1]" classname="com.application.testapp.services.CakeServiceImplTest$TestSomethingNew" time="0.014">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Only get thrown when there is index out of bound ==> Expected java.lang.IndexOutOfBoundsException to be thrown, but nothing was thrown.
+	at com.application.testapp.services.CakeServiceImplTest$TestSomethingNew.check_flavours_with_parameters(CakeServiceImplTest.java:160)
+]]></failure>
+    <system-out><![CDATA[17331878
+class com.application.testapp.services.CakeServiceImplTest$TestSomethingNew
+Some init in Before all
+]]></system-out>
+  </testcase>
+  <testcase name="check_flavours_with_parameters(String)[2]" classname="com.application.testapp.services.CakeServiceImplTest$TestSomethingNew" time="0.002"/>
+</testsuite>
